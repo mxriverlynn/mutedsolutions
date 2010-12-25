@@ -1,4 +1,3 @@
 .bundle/
 .sass-cache/
 *.swp
-Gemfile.lock
