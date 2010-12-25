@@ -15,29 +15,38 @@
   background-color: #eee
 
 body
-  +reset-box-model
-  +container
-  padding: 5px
   font: Arial, Helvetica, Sans-Serif
+  +reset-box-model
+
+.container
+  padding: 5px
+  +container
+  +prepend-top(2em)
 
 .header
-  text-align: center
+  +column(8)
+  text-align: right
   +append-bottom(2em)
   h1
     margin: 0px
     padding: 0px
     font-size: 64px
     .muted
-      display: inline
       color: #777
     .solutions
-      display: inline
       font-weight: bold
   .tagline
     display: inline
     font-size: 16px
 
 .main
+  +column(11)
   +box
   padding: 5px
 
+.footer
+  +prepend-top(1em)
+  +column(19.25)
+  font-size: 10px
+  color: #777
+  text-align: right
