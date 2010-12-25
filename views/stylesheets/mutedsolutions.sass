@@ -3,7 +3,41 @@
 +blueprint-typography
 +blueprint-utilities
 +blueprint-grid
-+blueprint-debug("/images/grid.png")
+// +blueprint-debug("/images/grid.png")
 +blueprint-interaction
 +blueprint-form
+
+=box
+  +border-radius
+  border: 1px solid #ccc
+  padding-top: 15px
+  padding-bottom: 15px
+  background-color: #eee
+
+body
+  +reset-box-model
+  +container
+  padding: 5px
+  font: Arial, Helvetica, Sans-Serif
+
+.header
+  text-align: center
+  +append-bottom(2em)
+  h1
+    margin: 0px
+    padding: 0px
+    font-size: 64px
+    .muted
+      display: inline
+      color: #777
+    .solutions
+      display: inline
+      font-weight: bold
+  .tagline
+    display: inline
+    font-size: 16px
+
+.main
+  +box
+  padding: 5px
 
