@@ -37,10 +37,20 @@ body
       font-weight: bold
   .tagline
     display: inline
-    font-size: 16px
+    font-size: 18px
+    font-variant: small-caps
+  #right-box
+    +prepend-top(0.5em)
+    +box
+    +column(2)
+    float: right
+    background-color: #fff
+    border-left: 0
+    margin-right: 0
+    border-bottom: 0
 
 .main
-  +prepend-top(1em)
+  +prepend-top(0.8em)
   +column(11)
   +box
   padding: 5px

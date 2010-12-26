@@ -405,9 +405,11 @@ body { font: Arial, Helvetica, Sans-Serif; margin: 0; padding: 0; border: 0; out
 .header h1 { margin: 0px; padding: 0px; font-size: 64px; }
 .header h1 .muted { color: #777777; }
 .header h1 .solutions { font-weight: bold; }
-.header .tagline { display: inline; font-size: 16px; }
+.header .tagline { display: inline; font-size: 18px; font-variant: small-caps; }
+.header #right-box { margin-top: 0.5em; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border: 1px solid #cccccc; padding-top: 15px; padding-bottom: 15px; background-color: #eeeeee; display: inline; float: left; margin-right: 10px; width: 70px; float: right; background-color: white; border-left: 0; margin-right: 0; border-bottom: 0; }
+* html .header #right-box { overflow-x: hidden; }
 
-.main { margin-top: 1em; display: inline; float: left; margin-right: 10px; width: 430px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border: 1px solid #cccccc; padding-top: 15px; padding-bottom: 15px; background-color: #eeeeee; padding: 5px; }
+.main { margin-top: 0.8em; display: inline; float: left; margin-right: 10px; width: 430px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border: 1px solid #cccccc; padding-top: 15px; padding-bottom: 15px; background-color: #eeeeee; padding: 5px; }
 * html .main { overflow-x: hidden; }
 
 .footer { margin-top: 1em; display: inline; float: left; margin-right: 10px; width: 760px; font-size: 10px; color: #777777; text-align: right; }
