@@ -1,2 +1,2 @@
-require 'mutedsolutions'
+require 'app'
 run Sinatra::Application

@@ -22,6 +22,15 @@ get '/' do
   haml :index
 end
 
-get "/contact" do
-  haml :contact
+get '/:view' do
+  view = params[:view].to_sym
+
+  haml_file = File.expand_path(File.join(File.dirname(__FILE__), "views", "#{view}.haml"))
+
+  if File.exist? haml_file
+    haml view
+  else
+    not_found
+  end
 end
+
