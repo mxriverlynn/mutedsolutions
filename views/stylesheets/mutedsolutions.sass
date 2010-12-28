@@ -14,6 +14,14 @@
   padding-bottom: 15px
   background-color: #eee
 
+a, a:hover, a:active, a:visited
+  color: #00a
+  text-decoration: none
+
+a:hover
+  color: #000
+  text-decoration: underline
+
 body
   font: Arial, Helvetica, Sans-Serif
   +reset-box-model
@@ -30,6 +38,13 @@ body
   font-size: 16px
   font-weight: bold
   font-variant: small-caps
+
+  a, a:hover, a:active, a:visited
+    color: #000
+    text-decoration: none
+
+  a:hover
+    text-decoration: underline
 
   #left-button
     float: left
@@ -53,7 +68,7 @@ body
       font-weight: bold
   .tagline
     display: inline
-    font-size: 17px
+    font-size: 12pt
     font-variant: small-caps
   #clear
     clear: both
@@ -86,6 +101,9 @@ body
   h3
     margin: 0
     padding: 0
+    padding-bottom: 5px
+  a
+    +prepend(1)
 
 #project
   li

@@ -396,12 +396,18 @@ input.text, input.title, input[type=email], input[type=text], input[type=passwor
 
 textarea { width: 390px; height: 250px; }
 
+a, a:hover, a:active, a:visited { color: #0000aa; text-decoration: none; }
+
+a:hover { color: black; text-decoration: underline; }
+
 body { font: Arial, Helvetica, Sans-Serif; margin: 0; padding: 0; border: 0; outline: 0; }
 
 .container { width: 790px; margin: 0 auto; overflow: hidden; *zoom: 1; }
 
 .header { display: inline; float: left; margin-right: 10px; width: 742px; margin-bottom: 3em; padding: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border-bottom: 1px solid #cccccc; font-size: 16px; font-weight: bold; font-variant: small-caps; }
 * html .header { overflow-x: hidden; }
+.header a, .header a:hover, .header a:active, .header a:visited { color: black; text-decoration: none; }
+.header a:hover { text-decoration: underline; }
 .header #left-button { float: left; padding-right: 10px; }
 .header #right-button { float: right; padding-left: 10px; }
 
@@ -410,7 +416,7 @@ body { font: Arial, Helvetica, Sans-Serif; margin: 0; padding: 0; border: 0; out
 .sidebar h1 { margin: 0px; padding: 0px; font-size: 64px; }
 .sidebar h1 .muted { color: #777777; }
 .sidebar h1 .solutions { font-weight: bold; }
-.sidebar .tagline { display: inline; font-size: 17px; font-variant: small-caps; }
+.sidebar .tagline { display: inline; font-size: 12pt; font-variant: small-caps; }
 .sidebar #clear { clear: both; }
 .sidebar #right-box { -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border: 1px solid #cccccc; padding-top: 15px; padding-bottom: 15px; background-color: #eeeeee; display: inline; float: left; margin-right: 10px; width: 20px; padding: 0; margin: 0; float: right; background-color: white; border-left: 0; margin-right: 0; border-bottom: 0; }
 * html .sidebar #right-box { overflow-x: hidden; }
@@ -422,7 +428,8 @@ body { font: Arial, Helvetica, Sans-Serif; margin: 0; padding: 0; border: 0; out
 * html .footer { overflow-x: hidden; }
 
 #contact-type { margin-top: 2em; }
-#contact-type h3 { margin: 0; padding: 0; }
+#contact-type h3 { margin: 0; padding: 0; padding-bottom: 5px; }
+#contact-type a { padding-left: 40px; }
 
 #project li { list-style-image: none; list-style-type: none; margin-left: 0px; margin-top: 1em; }
 
