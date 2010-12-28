@@ -1,0 +1,34 @@
+!!!
+!!! XML
+!!! Strict
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", 'xml:lang' => "en" }
+  %head
+    %title Muted Solutions - Letting you focus on what's important
+    %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=iso-8859-1"}/
+    %meta{'http-equiv'=>"Content-Language", :content=>"en-us"}/
+    %link{:href=>"/stylesheets/mutedsolutions.css", :media=>"screen", :rel=>"stylesheet", :type=>"text/css"}/
+  %body
+    .container
+      .header
+        #left-button
+          %a{:href => "/"} home
+        #left-button
+          %a{:href => "/contact"} contact
+        #right-button
+          %a{:href => "/"} about
+        #right-button
+          %a{:href => "/"} blog
+        #right-button
+          %a{:href => "/"} publications
+        #right-button
+          %a{:href => "/"} projects
+      .sidebar
+        %h1 
+          .muted Muted 
+          .solutions Solutions
+        .tagline letting you focus on what's important
+        #right-box &nbsp;
+      .main
+        = yield
+      .footer
+        %p Copyright &copy;2010 Muted Solutions, LLC.

@@ -400,7 +400,7 @@ body { font: Arial, Helvetica, Sans-Serif; margin: 0; padding: 0; border: 0; out
 
 .container { width: 790px; margin: 0 auto; overflow: hidden; *zoom: 1; }
 
-.header { display: inline; float: left; margin-right: 10px; width: 742px; margin-bottom: 3em; padding: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border-bottom: 1px solid #cccccc; font-size: 1.5em; font-weight: bold; font-variant: small-caps; }
+.header { display: inline; float: left; margin-right: 10px; width: 742px; margin-bottom: 3em; padding: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border-bottom: 1px solid #cccccc; font-size: 16px; font-weight: bold; font-variant: small-caps; }
 * html .header { overflow-x: hidden; }
 .header #left-button { float: left; padding-right: 10px; }
 .header #right-button { float: right; padding-left: 10px; }
@@ -419,3 +419,6 @@ body { font: Arial, Helvetica, Sans-Serif; margin: 0; padding: 0; border: 0; out
 
 .footer { margin-top: 1em; display: inline; float: left; margin-right: 10px; width: 760px; font-size: 10px; color: #777777; text-align: right; }
 * html .footer { overflow-x: hidden; }
+
+#contact-type { margin-top: 2em; }
+#contact-type h3 { margin: 0; padding: 0; }
