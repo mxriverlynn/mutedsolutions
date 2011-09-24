@@ -1,12 +1,12 @@
-source 'http://rubygems.org'
+source :rubygems
 
-gem 'bundler', '1.0.12'
-gem 'sinatra', '1.2.3'
-gem 'haml', '3.1.1'
-gem 'compass', '0.11.1'
+gem 'sinatra', '~>1.2'
+gem 'haml', '~>3.1'
+gem 'compass', '~>0.11'
 
 group :development, :test do
-  gem 'heroku', '1.20.1'
+  gem 'heroku', '~>1.20'
+  gem 'rb-fsevent', '~>0.4'
 end
 
 
